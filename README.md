@@ -9,5 +9,5 @@ We propose a structure and texture preserving network (STPSR) for real-world ima
 
 ### On real-world datasets
 <p align="center">  
-  <img src="https://github.com/bjzzhou/STPSR/blob/main/Figures/other_synthetic_01.png">  
+  <img src="https://github.com/bjzzhou/STPSR/blob/main/Figures/other_synthetic.png">  
 </p>
