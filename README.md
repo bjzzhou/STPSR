@@ -30,12 +30,14 @@ Table2. Average PSNR/SSIM values for scale factors x4 on synthetic datasets.
     
 ## Qualitative Results
 ### On real-world datasets
+
 <p align="center">  
   <img src="https://github.com/bjzzhou/STPSR/blob/main/Figures/other_real.png">  
 </p>
 
 ### On synthetic datasets
 Visual results between Real-ESRGAN and our method. The examples are from datasets BSD100, Urban100, and DIV2K validation. The scale factor is x4.
+
 <p align="center">  
   <img src="https://github.com/bjzzhou/STPSR/blob/main/Figures/other_synthetic.png">  
 </p>
