@@ -12,7 +12,7 @@ Our work in this direction focuses more on perceptual quality, and non-reference
 Table1. NIQE scores on several diverse testing datasets with real-world images.
 
 | Datasets | Bicubic | ESRGAN | DAN | RealSR | BSRGAN | Real-ESRGAN | Ours |
-| -------- | ------- | ------ |---- | ------ | ------ | ----------- | ---  |
+| -------- |:-------:|:------:|:---:|:------:|:------:|:-----------:|:----:|
 | DPED | 6.0121 | 5.7363 | 6.1414 | 5.5855 | 5.9906 | 4.3784 | $\color{red}{4.2126}$ |
 | RealSR-Canon | 6.1269 | 6.7715 | 6.5282 | 6.8692 | 5.7489 | 4.0360 | $\color{red}{3.8547}$
 | RealSR-Nikon | 6.3607 | 6.7480 | 6.6063 | 6.7390 | 5.9920 | 4.4656 | $\color{red}{4.2406}$
@@ -21,8 +21,8 @@ Table1. NIQE scores on several diverse testing datasets with real-world images.
 
 Table2. Average PSNR/SSIM values for scale factors x4 on synthetic datasets.
 
-|            | Real-ESRGAN | Ours | | |
-| ---------- | ---------- | ---------- | ---------- | ---------- |
+|            | Real-ESRGAN | | Ours | |
+| ---------- |:----------:|:----------:|:----------:|:----------:|
 | | PSNR | SSIM | RSNR | SSIM |
 | Set5       | 25.756 | 0.7910 | **27.179** | **0.8091**
 | Set14      | 24.831 | 0.6826 | **25.536** | **0.6875**
@@ -30,7 +30,9 @@ Table2. Average PSNR/SSIM values for scale factors x4 on synthetic datasets.
 | BSD100     | 24.517 | 0.6305 | **24.995** | **0.6337**
 | General100 | 26.544 | 0.7684 | **27.352** | **0.7776**
 | DIV2K val  | 25.961 | 0.7396 | **26.743** | **0.7458**
-    
+<p align="center">  
+  <img src="https://github.com/bjzzhou/STPSR/blob/main/Figures/table2.png">  
+</p>    
     
 ## Qualitative Results
 ### On real-world datasets
