@@ -1,6 +1,10 @@
 # STPSR
 We propose a structure and texture preserving network (STPSR) for real-world image super-resolution, which extracts both structural information and local textures.
 
+<p align="center">  
+  <img src="https://github.com/bjzzhou/STPSR/blob/main/Figures/framework.png">  
+</p>
+
 
 ## Quantitative Results
 Our work in this direction focuses more on perceptual quality, and non-reference image quality evaluation (NIQE) is seen as the main metric after Real-ESRGAN, with lower NIQE values indicating higher perceptual quality.
